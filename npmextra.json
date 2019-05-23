@@ -1,0 +1,17 @@
+{
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "financeplus",
+      "gitrepo": "finplus-interfaces",
+      "shortDescription": "an interface package for the financeplus organization",
+      "npmPackagename": "@financeplus/finplus-interfaces",
+      "license": "MIT",
+      "projectDomain": "finance.plus"
+    }
+  },
+  "npmci": {
+    "npmGlobalTools": [],
+    "npmAccessLevel": "public"
+  }
+}
