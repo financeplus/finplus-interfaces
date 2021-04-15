@@ -1,3 +1,3 @@
-import * as plugins from './finplus-interfaces.plugins';
+export * from './abstractclasses';
+export * from './interfaces';
 
-export * from './interfaces/csvparser';
