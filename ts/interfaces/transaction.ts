@@ -1,4 +1,4 @@
-import { IVoucher } from "./voucher";
+import { IVoucher } from './voucher';
 
 export interface IFinplusTransaction {
   finplusTransactionId: string;
