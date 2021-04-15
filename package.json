@@ -1,6 +1,6 @@
 {
   "name": "@financeplus/finplus-interfaces",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "private": false,
   "description": "an interface package for the financeplus organization",
   "main": "dist/index.js",
