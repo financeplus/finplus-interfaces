@@ -6,8 +6,9 @@ interface ITestTransaction {
   amount: number;
 }
 
-tap.test('first test', async () => {
+tap.test('implement test csv parser', async () => {
   class MyCsvParser extends finplusInterfaces.AcCsvParser<ITestTransaction> {
+    paymentProviderName: 'bunq';
     public transactionArray: ITestTransaction[] = [];
     public async getTransactions(): Promise<ITestTransaction[]> {
       return this.transactionArray;
